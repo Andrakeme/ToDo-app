@@ -1,0 +1,93 @@
+.toDoItemWrapper {
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 4px;
+    height: 120px;
+    background-color: rgb(58, 234, 240);
+}
+
+.doneTask {
+    background-color: rgb(73, 245, 73);
+    text-decoration: line-through;
+}
+
+.taskContent input {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 15px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    letter-spacing: 1px;
+    color: brown;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 50px;
+    outline: none;
+    background-color: whitesmoke;
+}
+
+.itemFormWrapper {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: center;
+    gap: 4px;
+    grid-template-rows: 1fr 2fr 1fr;
+    height: 100px;
+}
+
+.error {
+    grid-row-start: 3;
+}
+
+.button, .input {
+    grid-row-start: 2;
+}
+
+.button {
+    width: 20px;
+}
+
+.taskText {
+    grid-row-start: 2;
+    width: 100%;
+}
+
+.taskEditButton,
+.button,
+.toggleIsDoneButton,
+.deleteTaskButton {
+    width: 50px;
+    height: 50px;
+    justify-self: center;
+}
+
+.taskEditButton,
+.button {
+    grid-row-start: 2;
+    justify-self: end;
+}
+
+.taskEditButton button,
+.button button,
+.toggleIsDoneButton button,
+.deleteTaskButton button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(241, 205, 0);
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid rgb(218, 0, 0);
+}
+
+.taskEditButton button:focus,
+.button button:focus,
+.toggleIsDoneButton button:focus,
+.deleteTaskButton button:focus {
+    background-color: rgb(172, 146, 0);
+}
+

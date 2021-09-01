@@ -1,0 +1,12 @@
+.toDoListWrapper {
+    /* border: 2px solid red; */
+    background-color: rgb(229, 126, 255);
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    letter-spacing: 1px;
+    color: brown;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+}

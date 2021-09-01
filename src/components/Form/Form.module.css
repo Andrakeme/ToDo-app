@@ -1,0 +1,53 @@
+.fieldWrapper {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 5px;
+    /*Заккоменитровать*/
+    gap: 5px;
+    grid-template-rows: 70px;
+    background-color: rgb(255, 255, 64);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.input {
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    row-gap: 5px;
+}
+
+.input input {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 15px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    letter-spacing: 1px;
+    color: brown;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 50px;
+    outline: none;
+    background-color: whitesmoke;
+}
+
+.button button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(177, 243, 255);
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 3px -3px 20px rgb(20, 59, 231);
+}
+
+.button button:focus {
+    background-color: rgb(99, 183, 223);
+}
+
+.errorMessage {
+    font-size: 15px;
+    color: red;
+    font-weight: 600;
+    font-family: Andale Mono, monospace;
+}
